@@ -1,0 +1,197 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #a1c6f8;
+  color: #222222;
+  line-height: 1.6;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+
+.encabezado {
+  background-color:#011f48;
+  color: white;
+  padding: 20px 0;
+}
+
+.encabezado h1 {
+  margin: 0 0 15px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+
+
+main {
+  padding: 30px 0;
+}
+
+.tarjeta {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta h2,
+.tarjeta h3 {
+  margin-top: 0;
+}
+
+
+
+.acciones {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.boton:hover,
+.boton:focus {
+  background-color: #1d4ed8;
+}
+
+
+
+.tabla-contenedor {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #e5e7eb;
+}
+
+
+.campo {
+  margin-bottom: 18px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.campo input,
+.campo select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.campo input:focus,
+.campo select:focus {
+  outline: 3px solid #bfdbfe;
+  border-color: #2563eb;
+}
+
+
+.alerta {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #b91c1c;
+  background-color: #fee2e2;
+  color: #7f1d1d;
+  border-radius: 5px;
+}
+
+
+.detalle {
+  margin: 20px 0;
+}
+
+.detalle div {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.detalle dt {
+  font-weight: bold;
+}
+
+.detalle dd {
+  margin: 0;
+}
+
+
+
+.pie {
+  background-color: #011f48;
+  color: white;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.pie p {
+  margin: 5px 0;
+}
+
+.solicitud {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+
+
+a:focus,
+button:focus,
+input:focus,
+select:focus {
+  outline: 3px solid #93c5fd;
+  outline-offset: 2px;
+}
